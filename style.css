@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    font-size: 70px;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+iframe {
+    width: 60vw;
+    height: 60vh;
+    border: 2px solid #a8a8a8;
+    box-shadow: 2px 2px 9px 5px #a8a8a8;
+}
+
+button {
+    padding: 15px;
+    background: rgb(105, 105, 105);
+    color: white;
+    border: none;
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
